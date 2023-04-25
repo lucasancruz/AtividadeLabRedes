@@ -66,7 +66,47 @@ node n6 {
 	custom-config-id service:UserDefined:AjuCloud.html
 	custom-command AjuCloud.html
 	config {
+	<!DOCTYPE html>
 	<html>
+	  <head>
+	    <meta charset="UTF-8">
+	    <title>Serviços - AjuCloud</title>
+	    <style>
+	      /* Definindo estilos CSS inline */
+	      body {
+		font-family: Arial, sans-serif;
+	      }
+	      h1 {
+		color: #2c3e50;
+		font-size: 36px;
+		margin-top: 50px;
+	      }
+	      h2 {
+		color: #2980b9;
+		font-size: 24px;
+		margin-top: 40px;
+	      }
+	      p {
+		color: #555;
+		font-size: 16px;
+		line-height: 1.5;
+		margin-top: 20px;
+	      }
+	    </style>
+	  </head>
+	  <body>
+	    <h1>AjuCloud</h1>
+	    <h2>Serviços oferecidos:</h2>
+	    <p>
+	      A AjuCloud oferece serviços em nuvem de alta qualidade a preços acessíveis para empresas de todos os portes. Conheça nossos principais serviços:
+	    </p>
+	    <ul>
+	      <li><strong>Armazenamento em nuvem:</strong> tenha acesso aos seus arquivos de qualquer lugar e a qualquer hora, com segurança e privacidade.</li>
+	      <li><strong>Servidores virtuais:</strong> hospede seus sites, aplicativos e sistemas em nossos servidores virtuais, com escalabilidade e alta disponibilidade.</li>
+	      <li><strong>Backup em nuvem:</strong> proteja seus dados e sistemas contra perdas acidentais ou ataques cibernéticos, com backup automático em nuvem.</li>
+	      <li><strong>Integração com outras nuvens:</strong> integre nossos serviços com outras nuvens públicas ou privadas, para maior flexibilidade e eficiência.</li>
+	    </ul>
+	  </body>
 	</html>
 	}
     }
